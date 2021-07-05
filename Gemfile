@@ -22,7 +22,7 @@ gem 'image_processing', '~> 0.2.3'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'faker'
 gem 'kaminari'
-gem 'wdm', '>= 0.1.0'
+#gem 'wdm', '>= 0.1.0'
 gem 'stripe'
 
 gem 'trestle'
