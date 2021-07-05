@@ -88,4 +88,4 @@ production:
   <<: *default
   database: pfeee_production
   username: pfeee
-  password: <%= ENV['FREELANCER_DATABASE_PASSWORD'] %>
+  password: <%= ENV['PFEEE_DATABASE_PASSWORD'] %>
