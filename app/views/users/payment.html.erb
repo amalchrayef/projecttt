@@ -68,9 +68,8 @@
     // Create a Stripe client.
     var stripe = Stripe('<%= Rails.configuration.stripe = {
   
-    :publish_key      => 'pk_test_51J5JTTLcOfPRsqGjCY9CEVsEnjyrwy3qa7Xa6x5hIpiTKGA2hIeziFm9hVXXOhuhzo8zCo1488HuNBy03s251NAy00rgdnmquO'
-  
-  }#Rails.application.credentials[Rails.env.to_sym][:stripe][:STRIPE_PUBLIC_KEY] %>');
+    :publish_key      => 'pk_test_51J5JTTLcOfPRsqGjCY9CEVsEnjyrwy3qa7Xa6x5hIpiTKGA2hIeziFm9hVXXOhuhzo8zCo1488HuNBy03s251NAy00rgdnmquO'}%>');
+
 
     // Create an instance of Elements.
     var elements = stripe.elements();
