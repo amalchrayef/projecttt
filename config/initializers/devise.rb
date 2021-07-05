@@ -326,9 +326,10 @@ Devise.setup do |config|
       config.omniauth :facebook, ENV['FACEBOOK_ID'], ENV['FACEBOOK_SECRET_KEY'], scope: 'email',
       info_fields: 'email,name',image: 'large'
 
-   when "production"
+    when "production"
 
   
-    config.omniauth :facebook, ENV['FACEBOOK_ID'], ENV['FACEBOOK_SECRET_KEY'], scope: 'email',
+      config.omniauth :facebook, ENV['FACEBOOK_ID'], ENV['FACEBOOK_SECRET_KEY'], scope: 'email',
                     info_fields: 'email,name',image: 'large'
+   end
   end
