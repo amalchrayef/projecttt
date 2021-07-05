@@ -37,7 +37,8 @@ Rails.application.configure do
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
-
+  ENV['FACEBOOK_ID']="378031840017774"
+  ENV['FACEBOOK_SECRET_KEY']="33387a823f816c5e899ec9fe070e9de2"
   # Mount Action Cable outside main process or domain.
   # config.action_cable.mount_path = nil
   # config.action_cable.url = 'wss://example.com/cable'
