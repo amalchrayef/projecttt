@@ -319,6 +319,16 @@ Devise.setup do |config|
        #   authorize_url: "https://www.facebook.com/v7.0/dialog/oauth"
         #}
     #end
+    case Rails.env
+
+    when "development"
+
+      config.omniauth :facebook, ENV['FACEBOOK_ID'], ENV['FACEBOOK_SECRET_KEY'], scope: 'email',
+      info_fields: 'email,name',image: 'large'
+
+   when "production"
+
+  
     config.omniauth :facebook, ENV['FACEBOOK_ID'], ENV['FACEBOOK_SECRET_KEY'], scope: 'email',
                     info_fields: 'email,name',image: 'large'
   end
