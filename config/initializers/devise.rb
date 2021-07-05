@@ -329,7 +329,7 @@ Devise.setup do |config|
     when "production"
 
   
-      config.omniauth :facebook, ENV['FACEBOOK_ID'], ENV['FACEBOOK_SECRET_KEY'],  callback_url: "https://freeworkk.herokuapp.com/auth/facebookauth/facebook/callback",
+      config.omniauth :facebook, ENV['FACEBOOK_ID'], ENV['FACEBOOK_SECRET_KEY'],  callback_url: "https://freeworkk.herokuapp.com/auth/facebook/callback",
         scope: 'email',
                     info_fields: 'email,name',image: 'large'
    end
