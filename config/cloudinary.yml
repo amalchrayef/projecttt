@@ -1,11 +1,5 @@
 production:
-  cloud_name: "hboebuzel"
-
-
-  api_key: <%= ENV["CLOUDINARY_API_KEY"] %>
-
-
-  api_secret: <%= ENV["CLOUDINARY_API_SECRET"] %>
+ CLOUDINARY_URL: <%= ENV["CLOUDINARY_URL"] %>
 
 
   enhance_image_tag: true
