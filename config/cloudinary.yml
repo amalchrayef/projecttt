@@ -1,5 +1,5 @@
 production:
- CLOUDINARY_URL: <%= ENV["CLOUDINARY_URL"] %>
+  CLOUDINARY_URL: <%= ENV["CLOUDINARY_URL"] %>
 
 
   enhance_image_tag: true
