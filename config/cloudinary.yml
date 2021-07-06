@@ -1,5 +1,5 @@
 production:
-  CLOUDINARY_URL: <%= ENV["CLOUDINARY_URL"] %>
+  CLOUDINARY_URL: cloudinary://483747951799794:F10eSx8W3lLcHudlJSH_vO1il1s@hboebuzel
 
 
   enhance_image_tag: true
